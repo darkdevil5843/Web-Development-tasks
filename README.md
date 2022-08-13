@@ -4,6 +4,8 @@ Hi , I am Joydev , i had developed this form for my assigned task....
 
 i had used html ,css for designing the form and for validate i used javascript;
 
+I had added some extra featue and effect on the button ,and trying to add more style in future...
+
 
 
 
