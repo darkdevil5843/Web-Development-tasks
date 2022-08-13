@@ -1,0 +1,50 @@
+[
+  [
+    "MACHINE NAME",
+    "MACHINE ID",
+    "ENERGY CONSUMED (kWh)",
+    "Active Power (MW)",
+    "Apparent power (MVA)",
+    "Reactive Power (MVAr)",
+    "CURRENT (Amps)",
+    "VOLTAGE (Volts)",
+    "POWER FACTOR",
+    "IDLE TIME"
+  ],
+  [
+    "",
+    "",
+    ["Today", "MTD", "YTD"],
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ["Today", "MTD", "YTD"]
+  ],
+  [
+    "Auto Winding Machine",
+    "machine001",
+    [0, 0, 0],
+    0.0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    [0.0, 0.0, 0, 0]
+  ],
+  [
+    "Boiler Machine",
+    "machine004",
+    [0, 0, 0],
+    0.0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    [0.0, 0.0, 0, 0]
+  ]
+]
