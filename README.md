@@ -17,4 +17,4 @@ I had added some extra featue and effect on the button ,and trying to add more s
 
 
                                               The Output of my table page is given below
-    ![Capture3](https://user-images.githubusercontent.com/83903163/184493023-6dbba2de-9dc0-473c-8199-fbecc1046051.PNG)
+   ![Capture3](https://user-images.githubusercontent.com/83903163/184493023-6dbba2de-9dc0-473c-8199-fbecc1046051.PNG)
