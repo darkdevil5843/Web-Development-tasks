@@ -1,6 +1,6 @@
 # Web-Development-tasks By Joydev Gorai
 
-Hi , I am Joydev , i had developed this form for my assigned task....
+Hi , I am Joydev , i had developed this form & table for my assigned task....
 
 i had used html ,css for designing the form and for validate i used javascript;
 
