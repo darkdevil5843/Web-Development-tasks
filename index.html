@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+    
+</head>
+<body>
+    <center>
+        <form action="" method="post" name="myform" onsubmit="return validateform()">
+            <div id="border"><br><br>
+                <div id="div1">
+                    <label for="source" id="gcssource">Select your Source:</label>
+                    </div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Google Cloud Storage<br><br><br><br>
+                <div id="div2">   
+                    <label for="pipeline">Provide a name for pipeline:</label>
+                </div>
+                <input type="text" name="pipeline1" placeholder="e.g., cust_shop_energy_gkateway001"><br><br><br><br>
+                
+                <div id="div3">
+                    <label for="project">GCS project name:</label>
+                </div>
+            <input type="text" name="project" placeholder="project-id"><br><br><br><br>
+            
+            <div id="div4">
+                <label for="bucket">GCS bucket name:</label>
+            </div>
+                <input type="text" name="bucket" placeholder="gs://your-bucket"><br><br><br><br>
+            
+
+            <div id="div5">
+                <label for="input">Input Cloud Storage File(s):</label>
+            </div>
+            <input type="text" name="input" placeholder="GCS location of your files">
+            
+            <div id="ex">
+                <pre>
+Example: 
+                        gs://your-bucket/your-files/01.csv
+                </pre>
+            </div>
+
+            <div id="div6">
+                <label for="credential">GCS credentials:</label>
+            </div>
+            <input type="text" name="credential"><br><br><br><br>
+            
+
+            <div id="div7">
+                <label for="run">Run Every:</label>
+            </div>
+            <input type="text" name="run" placeholder="(in minutes)"><br><br><br><br>
+            
+            <div id="btn">
+
+                <input type="submit" value="Create" id="create_btn">
+                <input type="reset" name="cancel-btn" id="cancel_btn" value="Cancel">
+            </div>
+            
+        </div>
+    </form>   
+</center>
+<script  src="form.js"></script> 
+</body>
+</html>
